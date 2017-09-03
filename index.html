@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+  
+    <script src="./ccf/js/sm-custom-credit-validator.js" type="text/javascript" ></script>
+</head>
+
+<body>
+<input type="text" onblur="ccf.carImageChooser(this,'carImg')" onkeyup="ccf.inputFormatter(this)" onkeypress="return ccf.restrictChar(event)" />
+<img src="./ccf/imgs/card-logo-unknown.svg" height="15px" width="35px" id='carImg' />
+</body>
+
+</html>
